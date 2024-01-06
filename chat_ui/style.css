@@ -14,16 +14,6 @@ body {
     padding: 30px 15px
 }
 
-.chat-avatar {
-    float: right
-}
-
-.chat-avatar .avatar {
-    width: 30px;
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
 .chat-body {
     display: block;
     margin: 0;
@@ -112,26 +102,6 @@ body {
     border-bottom-left-radius: 3px;
 }
 
-.avatar img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border: 0 none;
-    border-radius: 1000px;
-}
-
-.chat-avatar .avatar {
-    width: 30px;
-}
-
-.avatar {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    white-space: nowrap;
-    border-radius: 1000px;
-    vertical-align: bottom;
-}
 
 .penerima{
     padding: 5px 30px;
