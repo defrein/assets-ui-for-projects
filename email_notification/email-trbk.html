@@ -1,0 +1,270 @@
+<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+<style>
+    a {
+        text-decoration: none;
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+        u~div .email-container {
+            min-width: 320px !important;
+            padding: 10px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+        u~div .email-container {
+            min-width: 375px !important;
+            padding: 10px;
+        }
+        .content-cell {
+            padding: 12px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 414px) {
+        u~div .email-container {
+            min-width: 414px !important;
+            padding: 10px;
+        }
+        .content-cell {
+            padding: 12px;
+        }
+    }
+    
+    .primary {
+        background: #42b982;
+    }
+    
+    .bg_white {
+        background: #ffffff;
+    }
+    
+    .bg_light {
+        background: #f7fafa;
+    }
+    
+    .bg_black {
+        background: #000000;
+    }
+    
+    .bg_dark {
+        background: rgba(0, 0, 0, .8);
+    }
+    
+    .email-section {
+        padding: 2.5em;
+    }
+    
+    .btn {
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    
+    .btn.btn-primary {
+        border-radius: 5px;
+        background: #42b982;
+        color: #ffffff;
+    }
+    
+    .btn.btn-white {
+        border-radius: 5px;
+        background: #ffffff;
+        color: #000000;
+    }
+    
+    .btn.btn-white-outline {
+        border-radius: 5px;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    
+    .btn.btn-black-outline {
+        border-radius: 0px;
+        background: transparent;
+        border: 2px solid #000;
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .btn-custom {
+        color: rgba(0, 0, 0, .3);
+        text-decoration: underline;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        margin-top: 0;
+        font-weight: 400;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.8;
+        color: rgba(0, 0, 0, .4);
+    }
+    
+    a {
+        color: #17bebb;
+    }
+    
+    .logo h1 {
+        margin: 0;
+    }
+    
+    .logo h1 a {
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    /*HERO*/
+    
+    .hero {
+        position: relative;
+        z-index: 0;
+    }
+    
+    .hero .text {
+        color: rgba(0, 0, 0, .3);
+    }
+    
+    .hero .text h2 {
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 0;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+    
+    .hero .text h3 {
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .hero .text h2 span {
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .text-author {
+        border: 1.7px solid rgba(0, 0, 0, .05);
+        width: fit-content;
+        max-width: 80%;
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 2em;
+    }
+    
+    .text-author img {
+        border-radius: 50%;
+        padding-bottom: 20px;
+    }
+    
+    .text-author h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    
+    ul.social {
+        padding: 0;
+    }
+    
+    ul.social li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    /*FOOTER*/
+    
+    .footer {
+        border-top: 1px solid rgba(0, 0, 0, .05);
+        color: rgba(0, 0, 0, .5);
+    }
+    
+    .footer .heading {
+        color: #000;
+        font-size: 20px;
+    }
+    
+    .footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer ul li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    
+    .footer ul li a {
+        color: rgba(0, 0, 0, 1);
+    }
+    
+    .header-logo {
+        padding: 0.5em 2.5em 0 2.5em;
+        margin-right: auto;
+        margin-left: auto;
+    }
+</style>
+
+<x-mail::message>
+    <div style="max-width: 800px; margin-right: auto; margin-left: auto;" class="email-container">
+        <!-- BEGIN BODY -->
+        <div align="center">
+            <img width="22px" height="28px" src="https://kalselprov.go.id/fr_assets/images/logo-kalsel.png" alt="">
+            <!-- <h3>LOGO</h3> -->
+        </div>
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+                <td valign="top" class="bg_white header-logo">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td class="logo">
+                                <h1 style="text-align: center;"><a href="#">PEMERINTAH PROVINSI KALIMANTAN SELATAN </a></h1>
+                                <h1 style="text-align: center;">
+                                    <a href="#">DINAS PEKERJAAN UMUM DAN PENATAAN RUANG</a></h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="middle" class="hero bg_white" style="padding: 2em 0 4em 0;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
+                                <div class="text">
+                                    <h2>{{ $data['message'] }}</h2>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">
+                                <div class="text-author">
+                                    <h3 class="name" style="text-align: center">Permohonan {{ $data['sktr_type'] }}</h3>
+                                    <h5 class="position" style="text-align: center; color:#6e6e6e">{{ $data['subject'] }}</h5>
+                                    <p style="text-align: center;"><a href="{{ $data['url'] }}" class="btn btn-primary btn-sm">View Surat</a></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+            <tr class="bg_white" style="text-align: center;">
+                <div style="margin-bottom: 10px; padding-left:20px; padding-right:20px; text-align:center"><span>Dinas PUPR - Bidang Cipta Karya, </span><br>Terima kasih atas perhatiannya</div>
+            </tr>
+        </table>
+    </div>
+</x-mail::message>
